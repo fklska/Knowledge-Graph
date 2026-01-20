@@ -4,7 +4,7 @@
 1. [Предобработка источников](#Конвертация-документов-в-Markdown)
 2. [Пайплайн извлечения сущностей](#LCEL-LangChain-Expression-Language)
 3. [Организация базы данных](#Neo4j---Не-графом-единым)
-4. [LLM Inference и DRAGON](#)
+4. [LLM Inference и DRAGON](#LLM-Inference-и-DRAGON)
 
 ## Введение 
 ### Существующие подходы
