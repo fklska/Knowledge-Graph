@@ -6,15 +6,6 @@
 3. [Организация базы данных](#Neo4j---Не-графом-единым)
 4. [LLM Inference и DRAGON](#LLM-Inference-и-DRAGON)
 
-## Введение 
-### Существующие подходы
-
-MIT
-
-From local to Global: GraphRAG
-
-Prompt me one more time
-
 ## Конвертация документов в Markdown
 
 В качестве входного текста было принято решение использовать `markdown` разметку. Обосновывается это тем, что LLM обучаются на огромных объёмах Markdown-подобных текстов (GitHub, документация, Wiki),
