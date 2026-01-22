@@ -6,6 +6,16 @@
 3. [Организация базы данных](#Neo4j---Не-графом-единым)
 4. [LLM Inference и DRAGON](#LLM-Inference-и-DRAGON)
 
+## Введение
+Графовые базы в качестве RAG, работают лучше чем классический RAG, все об этом говорят, но никто достоверно не проверяет.
+
+### Обзор аналогичных исследований:
+- From local to global: GraphRAG - Непонятная схема с сообществами, [проблемы](https://arxiv.org/html/2404.16130v2#:~:text=In%20this%20manuscript%2C%20our%20analysis%20uses%20exact%20string%20matching%20for%20entity%20matching) с нормализацией сущностей, отсутсвие асинхронного ретривера с neo4j
+> In this manuscript, our analysis uses exact string matching for entity matching
+- Prompt me one more time - промежуточные промпты, и сравнение сущностей с WikiData?
+- Graph-based representation (MIT) Buehler - интересная работа, но опят же для меня не очевидно для чего нужны промежуточные промпты summury etc. Интересная постобработка, через косинусную близость
+- NER - устарело, LLM справляются лучше
+
 ## Конвертация документов в Markdown
 
 В качестве входного текста было принято решение использовать `markdown` разметку. Обосновывается это тем, что LLM обучаются на огромных объёмах Markdown-подобных текстов (GitHub, документация, Wiki),
