@@ -1,5 +1,7 @@
 # Knowledge-Graph
-Описание индустриального проекта по построению графа знаний
+### Описание индустриального проекта по построению графа знаний
+
+[![Preview](docs/preview.png)](https://fklska.github.io/Knowledge-Graph/docs/graph.html)
 
 1. [Предобработка источников](#Конвертация-документов-в-Markdown)
 2. [Пайплайн извлечения сущностей](#LCEL-LangChain-Expression-Language)
