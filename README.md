@@ -1,5 +1,5 @@
 # Knowledge-Graph
-### Описание индустриального проекта по построению графа знаний
+### Описание индустриального проекта по построению графа знаний и RAG
 
 [![Preview](docs/preview.png)](https://fklska.github.io/Knowledge-Graph/docs/graph.html)
 [Демо](https://fklska.github.io/Knowledge-Graph/docs/graph.html)
@@ -98,7 +98,7 @@ LLM as Jude : 0.48<br>
 rouge1: 0.29<br>
 rougeL: 0.27<br>
 </p>
-В оригинале этот бенчмарк оценивает классический RAG, поэтому получены не все метрики. Судя по Leaderboard модель на 20b параметров ответила не хуже чем Qwen 5-32b
+В оригинале этот бенчмарк оценивает классический RAG, поэтому получены не все метрики. Судя по Leaderboard модель на 20b параметров ответила не хуже чем Qwen 2.5-32b
 
 Исходные результаты пожно глянуть по [ссылке](https://docs.google.com/spreadsheets/d/19vdhkvGBUYxaoxuE2z7h6o3zFuUvYqHY/edit?usp=sharing&ouid=112645934863507693718&rtpof=true&sd=true).
 
